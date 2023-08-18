@@ -1,0 +1,20 @@
+name: data_science
+channels:
+- conda-forge
+dependencies:
+- python == 3.8
+- ipython
+- pip
+- pip:
+  - opencv-python
+  - PyQt5
+- numba
+- cudatoolkit
+- numpy
+- scikit-learn
+- scikit-image
+- pyzmq
+- scipy
+- matplotlib
+- seaborn
+- pandas
